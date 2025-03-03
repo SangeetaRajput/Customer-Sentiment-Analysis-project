@@ -23,7 +23,6 @@ Rating: The rating provided by the user (1 to 5 stars).
 Review Text: The content of the customer's review, which may contain valuable information regarding their experience with the product.
 
 Steps:
-
 Set up Selenium to automate browser interactions, navigate to Flipkart’s product page for iPhone 15 128GB, and extract the reviews.
 Use BeautifulSoup to parse the HTML of the reviews and extract the relevant details (username, rating, and review text).
 Ensure that the scraper handles pagination to retrieve reviews from multiple pages if necessary.
