@@ -49,7 +49,8 @@ Matplotlib/Seaborn: For creating visualizations, such as sentiment distributions
    Use BeautifulSoup to parse the HTML and extract reviews from multiple pages, handling pagination where necessary.
 
 2. Data Cleaning and Preprocessing
-   Tools: Pandas
+
+    Tools: Pandas
 
    Task: Clean and preprocess the scraped data.
 
@@ -70,7 +71,7 @@ Matplotlib/Seaborn: For creating visualizations, such as sentiment distributions
 
    Perform lemmatization to convert words to their base form (e.g., "running" → "run").
 
-3. Sentiment Analysis
+4. Sentiment Analysis
 
    Tools: TextBlob
 
@@ -89,7 +90,7 @@ Matplotlib/Seaborn: For creating visualizations, such as sentiment distributions
 
    Store sentiment classification in the dataset.
 
-4. Data Analysis and Insights
+5. Data Analysis and Insights
 
    Tools: Pandas, Matplotlib/Seaborn
 
@@ -104,7 +105,7 @@ Matplotlib/Seaborn: For creating visualizations, such as sentiment distributions
 
    Review Length Analysis: Investigate the relationship between review length and sentiment.
 
-5. Reporting
+6. Reporting
 
    Overview: Summarize the data collection and cleaning processes.
 
