@@ -42,19 +42,21 @@ Matplotlib/Seaborn: For creating visualizations, such as sentiment distributions
    Rating: The rating provided by the user (1 to 5 stars).
 
    Review Text: The content of the customer review.
-   Steps:
+
+    Steps:
 
    Automate browser interactions using Selenium to navigate to Flipkart’s product page for the iPhone 15 128GB.
 
    Use BeautifulSoup to parse the HTML and extract reviews from multiple pages, handling pagination where necessary.
 
-2. Data Cleaning and Preprocessing
+3. Data Cleaning and Preprocessing
 
     Tools: Pandas
 
    Task: Clean and preprocess the scraped data.
 
    Steps:
+
    Remove Duplicates: Eliminate any duplicate reviews to ensure data quality.
 
    Handle Missing Values: Address missing or incomplete data.
@@ -71,13 +73,14 @@ Matplotlib/Seaborn: For creating visualizations, such as sentiment distributions
 
    Perform lemmatization to convert words to their base form (e.g., "running" → "run").
 
-4. Sentiment Analysis
+5. Sentiment Analysis
 
    Tools: TextBlob
 
    Task: Perform sentiment analysis on each review.
 
    Steps:
+
    Use TextBlob to analyze the sentiment of the review text.
 
    TextBlob provides a polarity score between -1 (negative) and +1 (positive), and a subjectivity score.
@@ -90,11 +93,12 @@ Matplotlib/Seaborn: For creating visualizations, such as sentiment distributions
 
    Store sentiment classification in the dataset.
 
-5. Data Analysis and Insights
+7. Data Analysis and Insights
 
    Tools: Pandas, Matplotlib/Seaborn
 
    Task: Perform analysis on the sentiment data and visualize the findings.
+
    Steps:
 
    Sentiment Distribution: Calculate the distribution of positive and negative sentiments.
@@ -105,7 +109,7 @@ Matplotlib/Seaborn: For creating visualizations, such as sentiment distributions
 
    Review Length Analysis: Investigate the relationship between review length and sentiment.
 
-6. Reporting
+9. Reporting
 
    Overview: Summarize the data collection and cleaning processes.
 
